@@ -6,7 +6,8 @@ boundary p p p
 
 atom_style full
 
-pair_style lj/sf 11
+#pair_style lj/sf 11
+pair_style lj/sf/dipole/sf 11
 
 read_data lammps.dat
 
